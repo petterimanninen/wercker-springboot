@@ -17,7 +17,7 @@ push:
         cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
 deploy-accs:
   steps:
-    # Deploy to Oracle Application Container Cloud
+    # Deploy to Oracle Application Container Cloud.
     - peternagy/oracle-accs-deploy@1.0.1:
         opc_user: $OPC_USERNAME
         opc_password: $OPC_PASSWORD
