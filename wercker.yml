@@ -1,5 +1,5 @@
 box: combient/java-mvn
-# pipeline: build application
+# pipeline: build application now
 build:
   steps:
     # Build Spring Boot Sample application
