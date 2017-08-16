@@ -15,7 +15,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration
 public class DemoApplication extends SpringBootServletInitializer {
 
-	@Override
+	@Override // test
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(DemoApplication.class);
 	}
